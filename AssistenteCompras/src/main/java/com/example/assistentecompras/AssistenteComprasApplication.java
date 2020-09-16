@@ -1,4 +1,4 @@
-package com.example.AssistenteCompras;
+package com.example.assistentecompras;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
