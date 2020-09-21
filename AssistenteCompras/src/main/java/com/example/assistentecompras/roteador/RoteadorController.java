@@ -15,7 +15,7 @@ public class RoteadorController {
 	
 	@CrossOrigin
 	@RequestMapping( method = RequestMethod.POST, path="/roteador")
-    public Rota criaRotas(@RequestBody List<Gondola> gondola) {
-		return new Rota(gondola);
+    public Rota criaRotas(@RequestBody List<Gondola> gondola, @RequestBody List<String> listaProdutos) {
+		return new Rota(gondola,listaProdutos);
     }
 }

@@ -9,5 +9,5 @@ public class AssistenteComprasApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AssistenteComprasApplication.class, args);
 	}
-
+	
 }

@@ -9,7 +9,7 @@ public class Rota {
 	
 	private List<Gondola> gondolasOrdenadas;
 
-	public Rota(List<Gondola> gondola) {
+	public Rota(List<Gondola> gondolas, List<String> produtosAComprar) {
 		//TODO criar lógica de negócio aqui.
 	}
 	
